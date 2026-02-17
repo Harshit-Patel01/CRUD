@@ -15,6 +15,10 @@ app.use(express.json());
 // Database Connection
 connectDB();
 
+// Routes
+app.use('/api/auth', authRoutes);
+app.use('/api/tasks', taskRoutes);
+
 app.get('/', (req, res) => {
   res.send('API is running...');
 });
