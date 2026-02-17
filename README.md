@@ -27,8 +27,8 @@ A full-stack task management application with Role-Based Access Control (RBAC), 
 
 1.  **Clone the repository**:
     ```bash
-    git clone <repository-url>
-    cd Assignment
+    git clone https://github.com/Harshit-Patel01/CRUD.git
+    cd CRUD
     ```
 
 2.  **Start the application**:
